@@ -1,6 +1,6 @@
-"""Created on Wed Jun 22 21:47:59 2022.
+"""Hamilton Trust Summer Project: Ising model.
 
-@author: ruaid
+@author: Ruaidhrí Campion
 """
 
 import numpy as np
