@@ -71,10 +71,10 @@ def m_e_v_e(array):
 
 
 def Met_Ising(width, length, tau, g, B, T):
-    """Metropolis Ising model.
+    """Metropolis-Hastings Ising model.
 
-    Run a Metropolis simulation of an Ising model of a given size with given
-    interaction and magnetic terms for a given length of time.
+    Run a Metropolis-Hastings simulation of an Ising model of a given size with
+    given interaction and magnetic terms for a given length of time.
     """
     spins = np.ones((tau, width, length))
     for i in range(width):
@@ -149,12 +149,12 @@ def HB_Ising(width, length, tau, g, B, T):
 
 
 def equib_Met_Ising(width, length, tau, g, B, T):
-    """Equilibrium Metropolis Ising model.
+    """Equilibrium Metropolis-Hastings Ising model.
 
-    Run a Metropolis simulation of an Ising model of a given size with given
-    interaction and magnetic terms for a given length of time, starting in an
-    equilibrium state for the zero magnetic field model for temperatures less
-    than the critical temperature.
+    Run a Metropolis-Hastings simulation of an Ising model of a given size with
+    given interaction and magnetic terms for a given length of time, starting
+    in an equilibrium state for the zero magnetic field model for temperatures
+    less than the critical temperature.
     """
     spins = np.ones((tau, width, length))
     if np.random.uniform(0, 1) < 0.5:
