@@ -1,4 +1,9 @@
-"""An Investigation of Markov Chain Monte Carlo Methods: Exponential distribution.
+"""An Investigation of Markov Chain Monte Carlo Methods: Exponential.
+
+Samples from exponential distributions of various rate parameters using
+Metropolis-Hastings algorithms of various step size parameters. Determines
+the relationship between these parameters in terms of thermalisation and
+integrated correlation time estimates.
 
 @author: Ruaidhrí Campion
 """
