@@ -118,7 +118,6 @@ d_strings = [r"10^{-2}",
              r"10^{1.5}",
              r"10^2",
              r"10^{2.5}"]
-ns = np.linspace(1, n, n)
 colours = ["r",
            "darkorange",
            "y",
