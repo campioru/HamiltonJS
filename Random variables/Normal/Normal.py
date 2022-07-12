@@ -1,4 +1,9 @@
-"""An Investigation of Markov Chain Monte Carlo Methods: Normal distribution.
+"""An Investigation of Markov Chain Monte Carlo Methods: Normal.
+
+Samples from normal distributions of various standard deviations using
+Metropolis-Hastings algorithms of various step size parameters. Determines
+the relationship between these parameters in terms of thermalisation and
+integrated correlation time estimates.
 
 @author: Ruaidhrí Campion
 """
